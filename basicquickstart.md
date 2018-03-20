@@ -57,3 +57,39 @@ If everything is set up correctly, you should see the app launch.
 Watch the setup process here
 
 [![Quick Start Tutorial Video](https://img.youtube.com/vi/ecX74fpHtOo/0.jpg)](https://www.youtube.com/watch?v=ecX74fpHtOo)
+
+## Project Detail
+
+### Gradle Config
+
+The plugin and available libraries are currently kept in a bintray maven repository. The repo is at 'https://dl.bintray.com/doppllib/j2objc'.
+In general you'll want to add the repo to both the buildscript and project repository collections. Also add 'org.j2objcgradle:gradle:0.12.1' to the
+buildscript dependencies.
+
+```gradle
+buildscript {
+    ext.kotlin_version = '1.1.51'
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://dl.bintray.com/doppllib/j2objc' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.j2objcgradle:gradle:0.12.1"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://dl.bintray.com/doppllib/j2objc' }
+    }
+}
+```
+
+The J2objc Gradle plugin can operate in two basic contexts: a separate Java module, and inside an Android project module.
+Inside a Java module, generally all of the Java code is shared to Objective-C. In an Android module, the shared
+code needs to be identified in the plugin config.

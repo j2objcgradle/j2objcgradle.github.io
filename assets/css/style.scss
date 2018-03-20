@@ -4,14 +4,14 @@
 @import "{{ site.theme }}";
 
 body {
-  padding: 2em;
+  padding: 1em;
 }
 
 header, footer {
   border-radius: .3em;
   background-color: rgb(15,40,60);
   color: #ffffff;
-  padding: 1em;
+  padding: 2em;
 }
 
 header h1, footer h1, header h2, footer h2, header h3, footer h3{

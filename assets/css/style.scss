@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+
+body {
+  padding: 2em;
+}
+
 header, footer {
   border-radius: .3em;
   background-color: rgb(15,40,60);

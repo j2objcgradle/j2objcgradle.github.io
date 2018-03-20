@@ -2,7 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-footer {
-  border-radius: 1em;
-  background-color: #ccccff;
+header, footer {
+  border-radius: .2em;
+  background-color: #eeeeff;
+  padding: .3em;
 }

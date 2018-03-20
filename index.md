@@ -11,8 +11,12 @@ several core libraries that can be included as dependencies.
 ## Gradle Plugin
 
 The gradle plugin is a fork of [j2objc-contrib/j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle). That
-project is no longer maintained, and we may merge the two. However, they're pretty different in how they operate at this point.
-Read more about the history at [gradlehistory](gradlehistory.html).
+project is no longer maintained. Although a fork, the plugin here has drifted significantly, so for now
+a separate project made more sense than trying to merge back into the original. More info on the history: [gradlehistory](gradlehistory.html).
+
+## Getting Started
+
+
 
 ## Libraries
 

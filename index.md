@@ -3,6 +3,12 @@
 This github org contains both a gradle plugin to support building J2objc and
 several core libraries that can be included as dependencies.
 
+## Getting Started
+
+If you want to just see the plugin do some basic J2objc stuff, see [Basic Quickstart](basicquickstart.html).
+
+## Repositories
+
 + [gradle](https://github.com/j2objcgradle/gradle) - The gradle plugin
 + [junit4](https://github.com/j2objcgradle/junit4) - Junit4
 + [mockito 1.9.5](https://github.com/j2objcgradle/mockito) - Mockito with some Objective-C specific additions (from the J2objc project)
@@ -13,10 +19,6 @@ several core libraries that can be included as dependencies.
 The gradle plugin is a fork of [j2objc-contrib/j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle). That
 project is no longer maintained. Although a fork, the plugin here has drifted significantly, so for now
 a separate project made more sense than trying to merge back into the original. More info on the history: [gradlehistory](gradlehistory.html).
-
-## Getting Started
-
-
 
 ## Libraries
 

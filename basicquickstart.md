@@ -66,7 +66,7 @@ The plugin and available libraries are currently kept in a bintray maven reposit
 In general you'll want to add the repo to both the buildscript and project repository collections. Also add 'org.j2objcgradle:gradle:0.12.1' to the
 buildscript dependencies.
 
-```gradle
+```groovy
 buildscript {
     ext.kotlin_version = '1.1.51'
     repositories {
@@ -86,6 +86,24 @@ allprojects {
         google()
         jcenter()
         maven { url 'https://dl.bintray.com/doppllib/j2objc' }
+    }
+}
+```
+
+In the app folder's build.gradle, apply the Gradle plugin
+
+```groovy
+apply plugin: 'org.j2objcgradle.gradle'
+```
+
+At the bottom of the file, add J2objc specific configuration
+
+```groovy
+j2objcConfig {
+    translatedPathPrefix 'com.kgalligan.basicandroid.shared', 'SH'
+
+    translatePattern {
+        include '**/shared/**'
     }
 }
 ```

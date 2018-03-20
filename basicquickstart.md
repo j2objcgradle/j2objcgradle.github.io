@@ -51,3 +51,9 @@ Navigate in Finder to the project directory, open the 'ios' folder, and double-c
 Select a simulator to run, and click 'Run'.
 
 If everything is set up correctly, you should see the app launch.
+
+## Video Tutorial
+
+Watch the setup process here
+
+[![Quick Start Tutorial Video](https://img.youtube.com/vi/ecX74fpHtOo/0.jpg)](https://www.youtube.com/watch?v=ecX74fpHtOo)

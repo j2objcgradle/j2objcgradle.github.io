@@ -4,11 +4,17 @@
 @import "{{ site.theme }}";
 header, footer {
   border-radius: .3em;
-  background-color: #6666aa;
+  background-color: rgb(15,40,60);
   color: #ffffff;
   padding: 1em;
 }
 
 header a, footer a{
   color: rgb(60,209,157);
+  font-weight: bold;
+}
+
+header a:hover, footer a:hover{
+  color: white;
+  font-weight: bold;
 }

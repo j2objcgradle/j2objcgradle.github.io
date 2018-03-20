@@ -18,6 +18,10 @@ a:hover {
   color: rgb(108,209,139);
 }
 
+.touchlablogo a:hover span {
+  color: white;
+}
+
 header, footer {
   border-radius: .3em;
   background-color: rgb(15,40,60);

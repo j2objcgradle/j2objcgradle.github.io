@@ -77,7 +77,7 @@ p.madeby, p.nomargin {
   margin:0;
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 720px) {
   #topmenu {
     display: none;
   }

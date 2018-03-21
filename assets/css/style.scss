@@ -84,6 +84,9 @@ p.madeby {
   header .madeby {
     display: none;
   }
+  .nomargin {
+    margin:0;
+  }
 }
 
 @media print, screen and (min-width: 960px) {

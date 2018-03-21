@@ -5,15 +5,15 @@ several core libraries that can be included as dependencies.
 
 ## Getting Started
 
-If you want to just see the plugin do some basic J2objc stuff, see [Basic Quickstart](basicquickstart.html).
+To see how to run the Gradle plugin against a basic project, check out [Basic Quickstart](basicquickstart.html).
+
+After the quickstart, see [more samples and tutorials](moresamples.html) for next steps.
 
 ## Gradle Plugin / Doppl
 
-The gradle plugin is a fork of [j2objc-contrib/j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle),
+The gradle plugin is a fork of 'j2objc-contrib/j2objc-gradle',
 and was the Gradle plugin developed for the [Doppl Project](https://doppllib.github.io/). See [gradlehistory](gradlehistory.html)
 for more background info and context.
-
-[Gradle Plugin Repo](https://github.com/j2objcgradle/gradle)
 
 ## Libraries
 

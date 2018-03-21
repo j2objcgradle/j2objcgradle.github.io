@@ -81,6 +81,9 @@ p.madeby {
   .topmenu {
     /*display: none;*/
   }
+  header .madeby {
+    display: none;
+  }
 }
 
 @media print, screen and (min-width: 960px) {

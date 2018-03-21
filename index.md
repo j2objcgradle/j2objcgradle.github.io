@@ -1,29 +1,28 @@
 # Gradle for J2objc
 
-This github org contains both a gradle plugin to support building J2objc and
+This project contains both a gradle plugin to support building [J2objc](https://developers.google.com/j2objc/) and
 several core libraries that can be included as dependencies.
 
 ## Getting Started
 
 If you want to just see the plugin do some basic J2objc stuff, see [Basic Quickstart](basicquickstart.html).
 
-## Repositories
+## Gradle Plugin / Doppl
 
-+ [gradle](https://github.com/j2objcgradle/gradle) - The gradle plugin
-+ [junit4](https://github.com/j2objcgradle/junit4) - Junit4
-+ [mockito 1.9.5](https://github.com/j2objcgradle/mockito) - Mockito with some Objective-C specific additions (from the J2objc project)
-+ [JavaHamcrest](https://github.com/j2objcgradle/JavaHamcrest) - JavaHamcrest provided to support junit4
+The gradle plugin is a fork of [j2objc-contrib/j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle),
+and was the Gradle plugin developed for the [Doppl Project](https://doppllib.github.io/). See [gradlehistory](gradlehistory.html)
+for more background info and context.
 
-## Gradle Plugin
-
-The gradle plugin is a fork of [j2objc-contrib/j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle). That
-project is no longer maintained. Although a fork, the plugin here has drifted significantly, so for now
-a separate project made more sense than trying to merge back into the original. More info on the history: [gradlehistory](gradlehistory.html).
+[Gradle Plugin Repo](https://github.com/j2objcgradle/gradle)
 
 ## Libraries
 
 The libraries included in this org are going to be very core, Java-only libraries. Junit and mockito come straight out of the J2objc
 project itself.
+
++ [junit4](https://github.com/j2objcgradle/junit4) - Junit4
++ [mockito 1.9.5](https://github.com/j2objcgradle/mockito) - Mockito with some Objective-C specific additions (from the J2objc project)
++ [JavaHamcrest](https://github.com/j2objcgradle/JavaHamcrest) - JavaHamcrest provided to support junit4
 
 **Why add these libraries if J2objc already has them?**
 

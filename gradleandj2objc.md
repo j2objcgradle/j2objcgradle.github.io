@@ -1,4 +1,8 @@
-# asdf
+# Gradle and Plugin and J2objc
+
+The Gradle plugin imposes some constraints and opinions on standard J2objc development.
+
+
 
 **Why add these libraries if J2objc already has them?**
 

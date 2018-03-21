@@ -1,7 +1,7 @@
 # Gradle Plugin History
 
-The gradle plugin started as a fork of https://github.com/j2objc-contrib/j2objc-gradle. That plugin
-uses native compilation features of Gradle, which no longer function as of Gradle 2.8. Current
+The gradle plugin started as a fork of [https://github.com/j2objc-contrib/j2objc-gradle](j2objc-contrib/j2objc-gradle). That plugin
+uses native compilation features of Gradle, which no longer function after Gradle 2.8. Current
 Android development requires far newer versions of Gradle to be productive.
 
 Doing the native compilation and testing in the Gradle plugin also created a black box situation.
@@ -34,6 +34,7 @@ original J2objc-Gradle plugin to merge this fork, then that might happen in the 
 
 Although this plugin has drifted fairly significantly from the original version,
 this project almost certainly wouldn't exist without the efforts of the original authors.
+The attribution and license notice from *j2objc-contrib/j2objc-gradle*:
 
 ## j2objc-gradle
 

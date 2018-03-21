@@ -76,3 +76,9 @@ header p.view  {
 p.madeby, p.nomargin {
   margin:0;
 }
+
+@media print, screen and (max-width: 480px) {
+  #topmenu {
+    display: none;
+  }
+}

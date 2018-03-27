@@ -1,6 +1,6 @@
 # Testing
 
-> See other tutorials: [Basic Quick Start](/basicquickstart.html), [Dependencies](/basicsamples/dependencies.html)
+> See other tutorials: [Basic Quick Start](/basicquickstart.html), [Dependencies](/basicsamples/dependencies.html), [Android Stuff](/basicsamples/androidstuff.html)
 
 The code here can be found in the '[testing](https://github.com/j2objcgradle/BasicAndroidSample/tree/testing)' branch of the sample app repo.
 

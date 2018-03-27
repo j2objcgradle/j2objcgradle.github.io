@@ -1,5 +1,7 @@
 # Dependencies
 
+> See other tutorials: [Basic Quick Start](/basicquickstart.html), [Testing](/basicsamples/testing.html)
+
 Let's run through the basics of adding dependencies to a J2objc Gradle project.
 
 The plugin defines 3 configurations, and can handle two different archive formats.

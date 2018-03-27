@@ -1,5 +1,7 @@
 # Testing
 
+> See other tutorials: [Basic Quick Start](/basicquickstart.html), [Dependencies](/basicsamples/dependencies.html)
+
 Along with translating your shared code, you can translate tests to Objective-C and run them in Xcode.
 The test translation works in a very similar way to the main shared code translation.
 The files matched with j2objcConfig's translatePattern are put through j2objc.

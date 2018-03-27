@@ -71,8 +71,8 @@ One each for main source and dependencies, and one each for test source and depe
 
 ![Build output](buildfolder.png)
 
-In this example, gson will be in 'build/j2objcBuild/dependencies/out/main/mainDependencyOut.&ast;' and junit
-and Guava will be in 'build/j2objcBuild/dependencies/out/test/testDependencyOut.&ast;'.
+In this example, gson will be in 'build/j2objcBuild/dependencies/out/main/mainDependencyOut.&#42;' and junit
+and Guava will be in 'build/j2objcBuild/dependencies/out/test/testDependencyOut.&#42;'.
 
 ## Doppl Helpers
 

@@ -98,3 +98,27 @@ task runIOSTests(type:Exec, dependsOn: 'j2objcBuild') {
     commandLine 'xcodebuild', 'test', '-workspace', 'ios.xcworkspace', '-scheme', 'iosTestOnly', '-destination', 'platform=iOS Simulator,name=iPhone 7,OS=latest'
 }
 ```
+
+## Continuous Integration Options
+
+We learned about [Microsoft App Center](https://appcenter.ms) at Droidcon Boston 2018 and thought we'd give it a try.
+
+Because the Gradle J2objc Plugin now automatically downloads the J2objc runtime, setting up
+CI servers should be easier, assuming the CI has access to both Gradle and iOS/Xcode build tools.
+
+Fortunately for us, it appears MS App Center does have those available.
+
+Add a file in the ios folder for a post-clone build step, called 'appcenter-post-clone.sh', and put the following in to create the Objective-C
+
+```bash
+cd ..
+./gradlew j2objcBuild
+```
+
+This will download J2objc and run the translation step. It is *not* fast, however. Just this build takes about 10 minutes. If you need fast, you'll
+need to set up something on a dedicated server.
+
+To run CI, set up the project as an Objective-C/Swift project. Make sure to select this branch (testing). Select the Xcode
+workspace and target. Make sure 'Run XCTest tests' is enabled. It should look like this.
+
+![App Center Setup](appcenter.png)

@@ -7,7 +7,7 @@ several core libraries that can be included as dependencies.
 
 To see how to run the Gradle plugin against a basic project, check out [Basic Quickstart](basicquickstart.html).
 
-After the quickstart, see [more samples and tutorials](moresamples.html) for next steps.
+After the quickstart, see more tutorials in the menu under "Basic Quickstart/Tutorials".
 
 ## Gradle Plugin / Doppl
 

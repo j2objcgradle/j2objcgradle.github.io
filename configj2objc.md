@@ -20,7 +20,7 @@ be downloaded automatically (it'll take a while).
 ### Available Versions
 
 The Gradle plugin is compatible with stock J2objc, but not a version that's released yet.
-We've created a version '2.0.6a', assuming the next released version will be '2.0.6'.
+We've created two pre-release versions: '2.0.6a' and '2.0.6b'. We are assuming the next released version will be '2.0.6'.
 
 #### Version 2.0.6a
 

@@ -1,6 +1,6 @@
 # Dependencies
 
-> See other tutorials: [Basic Quick Start](/basicquickstart.html), [Testing](/basicsamples/testing.html), [Android Stuff](/basicsamples/androidstuff.html)
+> See other tutorials in menu under "Basic Quickstart / Tutorials"
 
 Let's run through the basics of adding dependencies to a J2objc Gradle project.
 

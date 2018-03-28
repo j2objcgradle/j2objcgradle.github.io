@@ -1,6 +1,6 @@
 # Basic Quick Start
 
-> See other tutorials: [Dependencies](/basicsamples/dependencies.html), [Testing](/basicsamples/testing.html), [Android Stuff](/basicsamples/androidstuff.html)
+> See other tutorials in menu under "Basic Quickstart / Tutorials"
 
 We'll be cloning and building a very basic Android project, which shares
 just a little bit of standard Java code.

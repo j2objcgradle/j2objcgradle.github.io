@@ -1,6 +1,6 @@
 # Android Stuff
 
-> See other tutorials: [Basic Quick Start](/basicquickstart.html), [Dependencies](/basicsamples/dependencies.html), [Testing](/basicsamples/testing.html)
+> See other tutorials in menu under "Basic Quickstart / Tutorials"
 
 So far we've been mostly talking about vanilla Java code translation. While
 this can certainly be useful, the original purpose of Doppl and the origin of this

@@ -47,3 +47,5 @@ j2objcOnly 'javax.inject:javax.inject:1:sources'
 Gson is one of the first libraries pretty much everybody translates for J2objc.
 
 + Gson [2.6.2](https://github.com/j2objcgradle/gson/tree/j2objc-2.6.2), [2.8.2](https://github.com/j2objcgradle/gson/tree/j2objc-2.8.2)
+
+## Doppl

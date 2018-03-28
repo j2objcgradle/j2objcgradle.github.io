@@ -13,8 +13,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
-    function showSubMenu(){
-      $(".submenu").toggle()
+    function showSubMenu(className){
+      $("."+ className).toggle()
     }
     </script>
     <!--[if lt IE 9]>
@@ -29,7 +29,7 @@
 
         <span class="topmenu">
           <p class="view"><a href="/">Home</a></p>
-          <p class="view"><a href="#" onclick="showSubMenu();return false;">Basic Quickstart / Tutorials</a></p>
+          <p class="view"><a href="#" onclick="showSubMenu("submenu");return false;">Basic Quickstart / Tutorials</a></p>
           <p class="view submenu"><small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/basicquickstart.html">Basic Quickstart</a></small></p>
           <p class="view submenu"><small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/basicsamples/dependencies.html">Dependencies</a></small></p>
           <p class="view submenu"><small>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/basicsamples/testing.html">Testing / CI Setup</a></small></p>

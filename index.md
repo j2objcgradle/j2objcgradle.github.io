@@ -1,7 +1,7 @@
-# Gradle for J2objc
+# J2objc Packager for Gradle
 
-This project contains both a gradle plugin to support building [J2objc](https://developers.google.com/j2objc/) and
-several core libraries that can be included as dependencies.
+This project contains both a gradle plugin to support translating Java to Objective-C with [J2objc](https://developers.google.com/j2objc/), with
+dependency and packaging support for Xcode using Cocoapods.
 
 ## Getting Started
 

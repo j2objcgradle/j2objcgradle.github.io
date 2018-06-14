@@ -79,7 +79,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "org.j2objcgradle:gradle:0.12.1"
+        classpath "org.j2objcgradle:gradle:0.12.2"
     }
 }
 
@@ -108,6 +108,12 @@ j2objcConfig {
         include '**/shared/**'
     }
 }
+```
+
+In the projects gradle.properties file add:
+
+```groovy
+j2objc_runtime=2.0.6b
 ```
 
 The J2objc Gradle plugin can operate in two basic contexts: a separate Java module, and inside an Android project module.
